@@ -9,7 +9,7 @@ element.innerHTML = 'new Value';
 var img=document.getElementById('sac');
 var margineLeft=0;
 function moveRight(){
-    margineLeft=margineLeft+5;
+    margineLeft=margineLeft+1;
     img.style.marginLeft=margineLeft+'px';
 }
 
