@@ -8,5 +8,5 @@ element.innerHTML = 'new Value';
 //Move the image
 var img=document.getElementById('sac');
 img.onclick = function() {
-  img.style.marginleft='60px'  ;
+  img.style.marginLeft='60px'  ;
 };
