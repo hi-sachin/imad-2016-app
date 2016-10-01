@@ -8,6 +8,6 @@ element.innerHTML = 'new Value';
 //Move the image
 var img=document.getElementById('sac');
 img.onclick = function() {
-    var interval = setInterval(moveright,50);
+    var interval = setInterval(moveRight,50);
   img.style.marginLeft='60px'  ;
 };
